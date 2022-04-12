@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gruppo&family=Lato:ital,wght@0,100;0,300;1,300;1,400&family=Merriweather:wght@300;400;700;900&family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'poppins';
+    
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(/assets/bg1.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+.aside-container{
+    color: #fff;
+    width: 50%;
+    height: 100%;
+}
+
+.aside-container .titulo{
+   
+    margin-top: 50px;
+    text-align: center;
+}
+.aside-container .img-content{
+    width: 100%;
+    height: 100%;
+}
+.aside-container .img-content img{
+    width: 75%;
+}
+
+.container{
+    margin-left: 100px;
+    width: 600px;
+    height: 900px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #433f5e;
+    color: #fff;
+    
+}
+
+.container h1{
+    text-align: center;
+}
+.container .titulo{
+    text-align: center;
+    width: 100%;
+    height: 2%;
+}
+
+
+.container .form-content{
+    display: flex;
+    width: 100%;
+    height: 98%;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.container .form-content input{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    
+}
+
+
+.container .form-content .dados label {
+    height: 1.5rem;
+    display: inline-block;
+    width: 5rem;
+    margin-bottom: 10px;
+}
+.container .form-content .dados input{
+    height: 1.5rem;
+    width: 18rem;
+}
+
+.genero {
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 20px;
+}
+.genero span{
+    margin-left: 6px;
+}
+.genero input{
+    margin-left: 10px;
+    
+}
+.genero input:nth-of-type(6){
+    height: 1.5rem;
+    margin-left: 10px;
+}
+
+.atuacao{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.atuacao label {
+    margin-left: 10px;
+}
+.atuacao input{
+    margin-left: 5px;
+}
+
+.atuacao .block{
+    display: flex;
+    flex-direction: column;
+}
+
+.tecno{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.tecno input{
+    margin-left: 5px;
+}
+.tecno label{
+    margin-left: 10px;
+}
+
+.tecno .block{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+button{
+   width: 19rem;
+   height: 2rem;
+   margin-top: 20px;
+   cursor: pointer;
+   background-color: #07ce43;
+   outline: none;
+   color: #000;
+   font-weight: 500;
+   border: none;
+    
+}
+
+button:hover{
+    background-color: #57fa26;
+}
